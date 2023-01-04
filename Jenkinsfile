@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 pipeline {
   agent any
-  tools { nodejs '19.3.0'}
+  tools { nodejs 'latest'}
   stages {
     stage('preflight') {
       steps {
